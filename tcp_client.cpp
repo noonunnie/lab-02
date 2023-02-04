@@ -16,9 +16,13 @@ int main(int argc, char const *argv[])
 	char socket_read_buffer[1024];
 	
 	// TODO: Fill out the server ip and port
-	std::string server_ip = "127.0.0.1";
+	// std::string server_ip = "127.0.0.1";	// localhost
 	// std::string server_ip = "localhost";
+	
 	// std::string server_ip = "68.181.16.168";
+	
+	// std::string server_ip = "192.169.0.109";	// IP for raspberry pi
+	
 	std::string server_port = "2000";
 
 	int opt = 1;
